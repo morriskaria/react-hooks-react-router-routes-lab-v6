@@ -1,12 +1,11 @@
-// pages/Movie.js
-import { useParams } from 'react-router-dom';
-import NavBar from '../components/NavBar';
-import { movies } from '../data';
+import { useParams } from "react-router-dom";
+import { movies } from "../Data";
+import NavBar from "../components/NavBar";
 
 function Movie() {
   const { id } = useParams();
   const movie = movies.find(movie => movie.id === parseInt(id));
-  
+
   return (
     <>
       <NavBar />

@@ -1,5 +1,5 @@
+import { directors } from "../Data";
 import NavBar from "../components/NavBar";
-import { directors } from "../data";
 
 function Directors() {
   return (
@@ -7,7 +7,7 @@ function Directors() {
       <NavBar />
       <h1>Directors Page</h1>
       {directors.map(director => (
-        <article key={director.id}>
+        <article key={director.name}>
           <h2>{director.name}</h2>
           <ul>
             {director.movies.map(movie => (

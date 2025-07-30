@@ -1,6 +1,6 @@
 import MovieCard from "../components/MovieCard";
 import NavBar from "../components/NavBar";
-import { movies } from "../data";
+import { movies } from "../Data";
 
 function Home() {
   return (

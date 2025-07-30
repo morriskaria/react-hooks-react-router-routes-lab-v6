@@ -4,7 +4,7 @@ function ErrorPage() {
   return (
     <>
       <NavBar />
-      <h1>looks like something is wrong</h1>
+      <h1>looks like something is wrong </h1>
     </>
   );
 }

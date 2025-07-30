@@ -5,7 +5,6 @@ import Directors from "./pages/Directors";
 import Actors from "./pages/Actors";
 import ErrorPage from "./pages/ErrorPage";
 
-// Export the raw routes configuration for tests
 export const routes = [
   {
     path: "/",
@@ -26,7 +25,7 @@ export const routes = [
   }
 ];
 
-// Create and export the browser router for the app
+
 const router = createBrowserRouter(routes);
 
 export default router;

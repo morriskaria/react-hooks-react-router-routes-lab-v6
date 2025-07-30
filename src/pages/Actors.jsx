@@ -1,5 +1,5 @@
+import { actors } from "../Data";
 import NavBar from "../components/NavBar";
-import { actors } from "../data";
 
 function Actors() {
   return (
@@ -7,7 +7,7 @@ function Actors() {
       <NavBar />
       <h1>Actors Page</h1>
       {actors.map(actor => (
-        <article key={actor.id}>
+        <article key={actor.name}>
           <h2>{actor.name}</h2>
           <ul>
             {actor.movies.map(movie => (
